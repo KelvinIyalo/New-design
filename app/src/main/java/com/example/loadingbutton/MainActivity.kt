@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
                 progressBar.visibility = View.GONE
                 failure_text.visibility = View.VISIBLE
                 login_btn.background = ContextCompat.getDrawable(this, R.drawable.btn_failed)
+
             }
 
             handle.postDelayed(6000L){
